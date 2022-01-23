@@ -48,4 +48,4 @@ if uploaded_file is not None:
   st.write(label)
 
 
-st.markdown("*Created by Cécile Guillot, Machine Learning Engineer.*")
+st.markdown("*Created by Said ZELLAGUI, Machine Learning Engineer*")
