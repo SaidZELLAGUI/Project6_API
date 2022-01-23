@@ -8,10 +8,10 @@ import cv2
 import numpy as np
 
 # Displaying in-head
-st.title("Who let the dog out ?")
-st.header("Dog Breed Classification - Inception V3")
-st.image("banner.jpg")
-st.text("Upload a dog image to obtain its breed. Only 120 breeds available.")
+st.title("DOG BREEDS")
+st.header("Dogs breeds prediction. Open Classroom Projet6")
+st.image("banner2.jpg")
+st.text("Please upload the image that you want to know the breed in jpg format")
 
 # Importing labels name
 my_content = open("dogs_name.txt", "r")
@@ -44,7 +44,7 @@ if uploaded_file is not None:
   st.image(img, caption='Uploaded image.', use_column_width=True)
   st.write("")
   st.write("Classifying...")
-  label = image_classifier(img, 'my_model.h5')
+  label = image_classifier(img, 'My_model.h5')
   st.write(label)
 
 
